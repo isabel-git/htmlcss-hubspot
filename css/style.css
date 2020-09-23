@@ -6,10 +6,40 @@
 
 /* regole del header */
 header{
-  /* debug */
+  /* debug
   height: 300px;
   background: gray;
   /* fine debug */
+}
+
+/* proprieta nav */
+nav .row{
+  /* debug */
+  height: 50px;
+  /* fine debug */
+}
+
+nav .row.lightgrey{
+  background: lightgray;
+}
+
+nav .row.white{
+  background: white;
+}
+
+header section{
+  /* debug */
+  border: 1px solid black;
+  /* fine debug */
+  height: 500px;
+}
+header .img-background{
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: bottom;
+  height: 100%;
 }
 
 /* regole del main */
