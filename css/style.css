@@ -2,6 +2,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Heebo', sans-serif;
 }
 
 .clearfix::after{
@@ -35,14 +36,8 @@ a{
 /* REGOLE HEADER */
 
 /* proprieta nav */
-header nav .row{
-  /* debug
-  height: 50px;
-  /* fine debug */
-}
-
 header .box{
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   padding: 1% 0;
 }
@@ -95,18 +90,18 @@ main section .top-part{
 
 /* cubo img */
 .img-cube img{
-  width: 100px;
+  width: 40%;
   height: auto;
 }
 
 main section .bottom-part{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
 
-main .first .box{
-  /* debug */
+section.first .box{
+  /* debug
   height: 100px;
   /* fine debug */
   background: white;
@@ -114,12 +109,12 @@ main .first .box{
 }
 
 .row .vert.box{
-  width: 20%;
+  width: 30%;
   float: left;
 }
 
 .vert.box.center{
-  margin: 0 20%;
+  margin: 0 5%;
 }
 
 /* fine section */
@@ -132,7 +127,7 @@ section.second{
 }
 
 section.second .box{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
@@ -166,42 +161,61 @@ section.second .box-grid.top{
 section.second .box-grid.bottom{
   border-bottom: none;
 }
-
-
-
 /* fine section */
 
 /* inizio terzo section*/
-
 section.third .row{
   /* debug
   background: white;
   border: 1px solid black;
   /* fine debug */
-  width: 70%;
-  text-align: center;
+  width: 60%;
   margin: 0 auto;
 }
 
 section.third .row .content{
   /* debug */
   background: pink;
-  height: 100px;
   border: 1px solid black;
   /* fine debug */
-  width: 40%;
+  width: 50%;
   float: left;
+  margin: 20px 0;
 }
 
-section.third .row .content.left{
-  margin-right: 10%;
+section.third .content.text-one{
+  padding: 0 10%;
 }
 
-section.third .row .content.right{
-  margin-left: 10%;
+
+section.third .content.text-one div{
+  width: 50%;
+}
+
+section.third .logo-box{
+  /* debug */
+  border: 1px solid black;
+  /* fine debug */
+  width: 25%;
+  float: left;
+  padding: 5% 1% 0 3%;
+}
+
+section.third .logo-box img{
+  width: 100%;
+}
+
+section.third .woman-img{
+  /* display: inline-block; */
+  text-align: right;
+  /* word-wrap: break-word; */
+}
+
+section.third .woman-img img{
+  width: 50%;
 }
 /* fine section */
-
+/* FINE MAIN */
 
 /* footer */
 footer{
@@ -217,7 +231,7 @@ footer nav , footer section{
   background: white;
   border: 1px solid black;
   /* fine debug */
-  width: 70%;
+  width: 60%;
   text-align: center;
   margin: 0 auto;
 }
