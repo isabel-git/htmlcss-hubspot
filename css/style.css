@@ -16,13 +16,34 @@ a{
   text-decoration: none;
 }
 
+.float{
+  width: 50%;
+  float: left;
+  /* debug */
+  border: 1px solid black;
+  /* fine debug */
+}
+
+.left-aling{
+  text-align: left;
+}
+
+.right-aling{
+  text-align: right;
+}
+
 /* REGOLE HEADER */
 
 /* proprieta nav */
-nav .row{
+header nav .row{
   /* debug */
   height: 50px;
   /* fine debug */
+}
+
+header .box{
+  width: 70%;
+  margin: 0 auto;
 }
 
 nav .row.lightgrey, section.first{
@@ -37,7 +58,7 @@ header section{
   /* debug
   border: 1px solid black;
   /* fine debug */
-  height: 500px;
+  height: 700px;
 }
 header .img-background{
   background-image: url(../img/jumbotron.png);
@@ -48,6 +69,14 @@ header .img-background{
   height: 100%;
 }
 
+header section .content{
+  width: 50%;
+}
+
+h1{
+  font-size: 40px;
+}
+
 /* REGOLE MAIN */
 
 /* inizio primo section*/
@@ -56,7 +85,7 @@ main .top-part , .vert.box{
 }
 
 main section .top-part{
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -143,8 +172,6 @@ section.third .row .content.left{
 section.third .row .content.right{
   margin-left: 10%;
 }
-
-
 /* fine section */
 
 
@@ -177,26 +204,6 @@ footer nav .content-lista{
   float: left;
 }
 
-footer section{
-  /* debug
-  background: green;
-  border: 1px solid black;
-  /* fine debug */
-}
-
 footer a{
   color: white;
-}
-
-footer .float{
-  width: 50%;
-  float: left;
-}
-
-footer .left-aling{
-  text-align: left;
-}
-
-footer .right-aling{
-  text-align: right;
 }
