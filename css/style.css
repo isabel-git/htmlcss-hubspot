@@ -19,7 +19,7 @@ a{
 .float{
   width: 50%;
   float: left;
-  /* debug 
+  /* debug
   border: 1px solid black;
   /* fine debug */
 }
@@ -131,10 +131,44 @@ section.second{
   color: white;
 }
 
-section.second .text-aling{
+section.second .box{
   width: 70%;
   margin: auto;
 }
+
+section.second .content-grid{
+  padding: 5% 0;
+}
+
+section.second .box-grid{
+  /* debug */
+  height: 150px;
+  border: 1px solid white;
+  /* fine debug */
+  width: 25%;
+  float: left;
+
+}
+
+section.second .box-grid.angle-sx{
+  border-left: none;
+
+}
+
+section.second .box-grid.angle-dx{
+  border-right: none;
+}
+
+section.second .box-grid.top{
+  border-top: none;
+}
+
+section.second .box-grid.bottom{
+  border-bottom: none;
+}
+
+
+
 /* fine section */
 
 /* inizio terzo section*/
