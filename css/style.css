@@ -19,7 +19,7 @@ a{
 .float{
   width: 50%;
   float: left;
-  /* debug */
+  /* debug 
   border: 1px solid black;
   /* fine debug */
 }
@@ -36,7 +36,7 @@ a{
 
 /* proprieta nav */
 header nav .row{
-  /* debug */
+  /* debug
   height: 50px;
   /* fine debug */
 }
@@ -44,6 +44,7 @@ header nav .row{
 header .box{
   width: 70%;
   margin: 0 auto;
+  padding: 1% 0;
 }
 
 nav .row.lightgrey, section.first{
@@ -53,7 +54,9 @@ nav .row.lightgrey, section.first{
 nav .row.white{
   background: white;
 }
+/* fine nav */
 
+/* inizio sezione del header */
 header section{
   /* debug
   border: 1px solid black;
@@ -76,6 +79,7 @@ header section .content{
 h1{
   font-size: 40px;
 }
+/* fine sezione */
 
 /* REGOLE MAIN */
 
@@ -134,25 +138,15 @@ section.second .text-aling{
 /* fine section */
 
 /* inizio terzo section*/
-section.third{
-  /* debug
-  background: blue;
-  height: 500px;
-  /* fine debug */
-
-  /* position: relative; */
-}
 
 section.third .row{
-  /* debug */
+  /* debug
   background: white;
   border: 1px solid black;
   /* fine debug */
   width: 70%;
   text-align: center;
   margin: 0 auto;
-  /* margin: 0 auto; */
-  /* position: relative; */
 }
 
 section.third .row .content{
