@@ -76,8 +76,13 @@ main .first .box{
 
 .row .vert.box{
   width: 20%;
-  display: inline-block;
+  float: left;
 }
+
+.vert.box.center{
+  margin: 0 20%;
+}
+
 /* fine section */
 
 /* inizio secondo section*/
@@ -95,7 +100,7 @@ section.second .text-aling{
 
 /* inizio terzo section*/
 section.third{
-  /* debug 
+  /* debug
   background: blue;
   height: 500px;
   /* fine debug */
@@ -132,8 +137,17 @@ section.third .row .content{
 
 /* footer */
 footer{
-  /* debug
+  /* debug */
   height: 300px;
-  background: lightblue;
+  background: #32495b;
   /* fine debug */
+}
+
+footer section .content-list{
+  /* debug */
+  height: 100px;
+  background: white;
+  border: 1px solid black;
+  /* fine debug */
+
 }
