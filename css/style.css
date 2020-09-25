@@ -239,23 +239,33 @@ section.third .row .content{
   margin: 20px 0;
 }
 
+
 section.third .content.text-one{
-  padding: 0 10%;
-}
-
-
-section.third .content.text-one div{
   width: 50%;
+  padding: 0 5%;
 }
 
 section.third .logo-box{
-  /* debug */
+  /* debug
   border: 1px solid black;
   /* fine debug */
   width: 25%;
   float: left;
-  padding: 5% 1% 0 3%;
+  padding: 10px;
 }
+
+section.third h2 , section.third p , section.third .button{
+  margin-bottom: 20px;
+}
+
+main .button{
+  text-align: center;
+  padding: 2% 10%;
+  border-radius: 5px;
+  color: white;
+  background: orange;
+}
+
 
 section.third .logo-box img{
   width: 100%;
