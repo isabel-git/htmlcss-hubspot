@@ -53,7 +53,7 @@ header .box{
 }
 
 nav .row.lightgrey, section.first{
-  background: lightgray;
+  background: #f4f9fd;
 }
 
 nav .row.white{
@@ -126,6 +126,10 @@ main section.first .bottom-part{
   margin: auto;
 }
 
+main section .row{
+  padding: 3% 0;
+}
+
 .orz .image-float{
   float: left;
   width: 30%;
@@ -143,6 +147,10 @@ section.first .vert.box .padding{
 .orz .text-float{
   width: 70%;
   float: left;
+}
+
+section.first .text-line li{
+  display: inline-block;
 }
 
 h2{
@@ -173,6 +181,19 @@ section.first .box{
   margin: 0 5%;
 }
 
+section.first .aling-center li{
+  text-align: left;
+}
+
+.vert.box .button-box{
+  text-align: center;
+}
+
+.vert.box .button-box a{
+  display: inline-block;
+  /* margin: auto; */
+}
+
 /* fine section */
 
 /* inizio secondo section*/
@@ -180,6 +201,10 @@ section.second{
   background: #00aab7;
   text-align: center;
   color: white;
+}
+
+section.second .content h2 , section.second .content p{
+  padding: 15px 0;
 }
 
 section.second .box{
@@ -193,11 +218,12 @@ section.second .content-grid{
 
 section.second .box-grid{
   /* debug */
-  height: 150px;
+  /* height: 150px; */
   border: 1px solid white;
   /* fine debug */
   width: 25%;
   float: left;
+  padding: 2%;
 
 }
 
@@ -230,7 +256,7 @@ section.third .row{
 }
 
 section.third .row .content{
-  /* debug */
+  /* debug 
   background: pink;
   border: 1px solid black;
   /* fine debug */
@@ -263,18 +289,20 @@ main .button{
   padding: 2% 10%;
   border-radius: 5px;
   color: white;
-  background: orange;
+  background: #fe775a;
+  display: inline-block;
 }
-
 
 section.third .logo-box img{
   width: 100%;
 }
 
+section.first i{
+  color: orange;
+}
+
 section.third .woman-img{
-  /* display: inline-block; */
   text-align: right;
-  /* word-wrap: break-word; */
 }
 
 section.third .woman-img img{
