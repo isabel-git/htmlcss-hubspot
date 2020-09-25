@@ -2,6 +2,7 @@
 *{
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: 'Heebo', sans-serif;
 }
 
@@ -11,12 +12,6 @@
   clear: both;
 }
 
-a{
-  display: inline-block;
-  list-style: none;
-  text-decoration: none;
-}
-
 .float{
   width: 50%;
   float: left;
@@ -24,6 +19,20 @@ a{
   border: 1px solid black;
   /* fine debug */
 }
+
+.small-font{
+  font-size: 13px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
 
 .left-aling{
   text-align: left;
@@ -49,9 +58,26 @@ nav .row.lightgrey, section.first{
 nav .row.white{
   background: white;
 }
+
+header nav a{
+  display: inline-block;
+  color: black;
+}
+
+header img{
+  width: 20%;
+}
+
+header .nav-princ{
+  padding-left: 10px;
+}
+
+header li{
+  display: inline-block;
+}
+
 /* fine nav */
 
-/* inizio sezione del header */
 header section{
   /* debug
   border: 1px solid black;
@@ -83,7 +109,7 @@ main .top-part , .vert.box{
   text-align: center;
 }
 
-main section .top-part{
+main section.first .top-part{
   width: 50%;
   margin: auto;
 }
@@ -94,11 +120,28 @@ main section .top-part{
   height: auto;
 }
 
-main section .bottom-part{
+main section.first .bottom-part{
   width: 60%;
   margin: auto;
 }
 
+/* .row .orz.box{
+  padding: 20px;
+} */
+
+.orz .image-float{
+  float: left;
+  width: 30%;
+}
+
+.orz .text-float{
+  width: 70%;
+  float: left;
+}
+
+.orz.box img{
+  width: 25%;
+}
 
 section.first .box{
   /* debug
@@ -224,6 +267,7 @@ footer{
   /* fine debug */
   background: #32495b;
   color: white;
+  font-size: 13px;
 }
 
 footer nav , footer section{
@@ -232,20 +276,34 @@ footer nav , footer section{
   border: 1px solid black;
   /* fine debug */
   width: 60%;
-  text-align: center;
   margin: 0 auto;
 }
 
 footer nav .content-lista{
-  /* debug */
+  /* debug
   height: 100px;
   background: yellow;
   border: 1px solid black;
   /* fine debug */
   width: 25%;
   float: left;
+  padding-top: 10px;
 }
 
-footer a{
+footer nav ul{
   color: white;
+  text-align: left;
+}
+
+footer section{
+  margin-top: 40px;
+}
+
+footer .language{
+  text-align: center;
+}
+
+
+footer section a{
+  display: inline-block;
 }
