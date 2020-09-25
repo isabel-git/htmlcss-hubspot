@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Heebo', sans-serif;
+  font-size: 13px;
 }
 
 .clearfix::after{
@@ -18,10 +19,6 @@
   /* debug
   border: 1px solid black;
   /* fine debug */
-}
-
-.small-font{
-  font-size: 13px;
 }
 
 a{
@@ -40,6 +37,10 @@ ul{
 
 .right-aling{
   text-align: right;
+}
+
+.align-center{
+  text-align: center;
 }
 
 /* REGOLE HEADER */
@@ -100,15 +101,15 @@ header section .content{
 h1{
   font-size: 40px;
 }
+
+section.first img{
+  text-align: center;
+}
 /* fine sezione */
 
 /* REGOLE MAIN */
 
 /* inizio primo section*/
-main .top-part , .vert.box{
-  text-align: center;
-}
-
 main section.first .top-part{
   width: 50%;
   margin: auto;
@@ -125,13 +126,18 @@ main section.first .bottom-part{
   margin: auto;
 }
 
-/* .row .orz.box{
-  padding: 20px;
-} */
-
 .orz .image-float{
   float: left;
   width: 30%;
+
+}
+/* padding */
+section.first .orz.box .padding{
+  padding: 5% 0;
+}
+
+section.first .vert.box .padding{
+  padding: 5%;
 }
 
 .orz .text-float{
@@ -139,8 +145,15 @@ main section.first .bottom-part{
   float: left;
 }
 
-.orz.box img{
-  width: 25%;
+h2{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+}
+section.first img{
+  width: 30%;
 }
 
 section.first .box{
@@ -287,7 +300,22 @@ footer nav .content-lista{
   /* fine debug */
   width: 25%;
   float: left;
-  padding-top: 10px;
+  padding-top: 5%;
+}
+
+footer nav .content-lista li{
+  padding-top: 5%;
+}
+
+footer .button li{
+  border: 1px solid black;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 5%;
+  border-radius: 5px;
+  color: #32495b;
+  background: white;
+  margin-top: 10px;
 }
 
 footer nav ul{
@@ -295,15 +323,29 @@ footer nav ul{
   text-align: left;
 }
 
+.social li {
+  display: inline-block;
+  padding-right: 20%;
+  width: 10px;
+}
+
 footer section{
-  margin-top: 40px;
+  padding: 1% 0;
 }
 
 footer .language{
   text-align: center;
 }
 
+footer .language a{
+  padding: 5px;
+}
 
 footer section a{
   display: inline-block;
+}
+
+
+footer .right-aling a{
+  padding-left: 10px;
 }
