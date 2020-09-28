@@ -45,19 +45,38 @@ ul{
 /* REGOLE HEADER */
 
 /* proprieta nav */
+
 header .box{
   width: 60%;
   margin: 0 auto;
   padding: 1% 0;
 }
 
-header nav{
-  min-height: 30px;
-  line-height: 30px;
-}
-
 nav .row.lightgrey, section.first{
   background: #f4f9fd;
+}
+
+#contact-us{
+  border-left: 1px solid black;
+  padding-left: 3%;
+  margin-left: 3%;
+}
+
+#button-log{
+  background-color: white;
+  border: 1px solid #fe775a;
+  color: #fe775a;
+  padding: 1%;
+  border-radius: 5px;
+  margin: 0 5px;
+
+}
+
+header nav .button{
+  background-color: #fe775a;
+  color: white;
+  padding: 1% 2%;
+  border-radius: 5px;
 }
 
 nav .row.white{
@@ -69,6 +88,10 @@ header nav a{
   color: black;
 }
 
+.float.right-aling{
+  padding: 1% 0;
+}
+
 /* header img{
   width: 90%;
 } */
@@ -76,6 +99,7 @@ header nav a{
 header .nav-princ{
   padding-left: 10px;
 }
+/* METTI ANCHE I BOTTTONI */
 
 header li{
   display: inline-block;
@@ -109,7 +133,7 @@ h1{
 
 header section .button{
   text-align: center;
-  padding: 2% 10%;
+  padding: 1% 2%;
   border-radius: 5px;
   color: white;
   background: #fe775a;
@@ -184,7 +208,7 @@ section.first .box{
   height: 100px;
   /* fine debug */
   background: white;
-  border: 1px solid black;
+  box-shadow: 0 0 5px gray;
 }
 
 h3{
@@ -327,7 +351,7 @@ section.third .logo-box img{
 }
 
 section.first i{
-  color: orange;
+  color: #fe775a;
 }
 
 section.third .woman-img{
