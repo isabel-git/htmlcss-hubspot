@@ -42,6 +42,12 @@ ul{
   text-align: center;
 }
 
+/* .sticky{
+  top: 0;
+  position: sticky;
+  width: 100%;
+} */
+
 /* REGOLE HEADER */
 
 /* proprieta nav */
@@ -89,6 +95,10 @@ header nav a{
 }
 
 .float.right-aling{
+  padding: 1% 0;
+}
+
+.float.left-aling{
   padding: 1% 0;
 }
 
